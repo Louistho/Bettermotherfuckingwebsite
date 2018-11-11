@@ -28,3 +28,40 @@ h1, h2, h3
 {
 	font-family: monospace;
 }
+#popup
+{
+	position: fixed;
+	z-index: 10;
+	background-color: #f5f5f5;
+	min-height: 350px;
+	color: #000;
+	top: 20px;
+	left: 25%;
+	right: 25%;
+	bottom: 100px;
+	text-align: center;
+	padding-top: 5%;
+	display: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 3px #6d6d6d;
+}
+
+#popup h2 {
+	margin-bottom: 10%;
+}
+#popup a, #Non
+{
+	text-decoration: none;
+	color: #FFF;
+	background-color: red;
+	padding: 10px;
+	width: 100px;
+	margin: 0 auto;
+	display: inline;
+	cursor: pointer;
+}
+#popup a:hover, #Non:hover
+{
+	background-color: #ff6666;
+}
